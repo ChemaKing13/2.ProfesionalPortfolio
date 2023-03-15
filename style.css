@@ -1,0 +1,155 @@
+.root {
+    --gold:#945D04;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #94BED4;
+    font-family: 'calibri';
+}
+
+header {
+    background: #021125;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+   padding: 30px 0% 30px 0;
+    
+    
+}
+
+.container-header h1 {
+    color:  #945D04;
+    padding: 5px 1% 5px 6%;
+    margin: 0%;
+}
+
+.container-header img {
+    height: 100px;
+    width: 100px;
+    margin-left: -200px;
+    border-radius: 25px;
+}
+
+nav {
+   float: right; 
+}
+
+a:after {
+    position: absolute;
+    content: "";
+    background-color: #945D04;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+a:hover:after{
+    width: 100%;
+}
+
+a:hover{
+    color: #ffffff;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 75px;
+    padding: 12px 0;
+    float: left; 
+    position: relative; 
+
+}
+
+nav ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: 400; 
+    font-size: larger;
+    padding: 15px 30px;
+    background-position: bottom;
+}
+
+
+
+.flex-container {
+    display: flex;
+    padding: 50px;
+    background-image: url(images/main.jpg);
+    background-size: cover; 
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.flex-container h2 {
+    color: white;
+    text-align: right;
+    padding: 5px 10px;
+    background-color: #945D04;
+    line height: ;
+}
+
+.Main-Content {
+   max-width: 1280px;
+   margin: 0 auto;
+   padding: 20px; 
+}
+
+.AboutMe {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.AboutMe h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid black;
+    font-size: 50px;
+    padding-top: 15px;
+}
+
+.AboutMe p {
+ margin-bottom: 20px;
+ 
+}
+
+p {
+    text-align: justify;
+    background-position: 50px;
+    padding-right: 80px;
+}
+
+.Contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.Contact h2 {
+    font-size: 50px;
+    flex: 0 0 20%;
+    border-right: 4px solid black;
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.links-contact a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.4rem;
+    text-decoration-line: underline;
+    justify-content:right;
+}
