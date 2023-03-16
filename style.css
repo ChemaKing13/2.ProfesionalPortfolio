@@ -8,6 +8,22 @@
     box-sizing: border-box;
 }
 
+.Work {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.Work h2 {
+    font-size: 50px;
+    flex: 0 0 20%;
+    border-right: 4px solid black;
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
 body {
     background: #94BED4;
     font-family: 'calibri';
@@ -42,7 +58,7 @@ nav {
    float: right; 
 }
 
-a:after {
+.menu-items.item a:after {
     position: absolute;
     content: "";
     background-color: #945D04;
@@ -53,7 +69,11 @@ a:after {
     transition: 0.3s;
 }
 
-a:hover:after{
+.menu-items{
+    position: relative;
+}
+
+.menu-items.item a:hover:after{
     width: 100%;
 }
 
@@ -80,9 +100,7 @@ nav ul li a {
     background-position: bottom;
 }
 
-
-
-.flex-container {
+.flex-container{
     display: flex;
     padding: 50px;
     background-image: url(images/main.jpg);
@@ -97,7 +115,6 @@ nav ul li a {
     text-align: right;
     padding: 5px 10px;
     background-color: #945D04;
-    line height: ;
 }
 
 .Main-Content {
@@ -132,24 +149,148 @@ p {
     padding-right: 80px;
 }
 
-.Contact {
+.ContactMe{
+    margin: 25px 0;
+    padding: 10px 0;
     display: flex;
     flex-direction: row;
+    background-color:#021125;
+    padding: 30px 0 30px 0;
+}
+    
+
+.ContactMe address {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
-.Contact h2 {
+
+.ContactMe div a {
+    text-decoration: none;
+    justify-content: space-between;
+    font-size: 1.5em;
+    color: white;
+    padding-right: 50px;
+    padding-left: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+}
+
+
+.ContactMe h2 {
     font-size: 50px;
     flex: 0 0 20%;
     border-right: 4px solid black;
     text-align: right;
     padding-right: 15px;
     padding-top: 15px;
+    color: #ffffff;
 }
 
-.links-contact a {
-    color: black;
-    text-decoration: none;
-    font-size: 1.4rem;
-    text-decoration-line: underline;
-    justify-content:right;
+.flex-container-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+.flex-item {
+    border: 5px solid black;
+    background-color: #945D04;
+    min-height: 150px;
+    max-height: 150px;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-size: 150px;
+    font-size: 0.9em;
+}
+
+
+.flex-box {
+    height: 100px;
+    width: 400px;
+}
+
+.flex-box h3 {
+    text-decoration: none;
+    color: black;
+}
+
+.main-flex-container {
+    width: 100%;
+}
+
+.main-flex-container .box-wrapper {
+    margin-left: 20px;
+    width: calc(100% - 20px);
+}
+
+.big-flex-box {
+    min-height: 350px;
+    width: 150px;
+    flex-basis: 100%;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 25px;
+    position: relative;
+}
+
+.big-flex-box h3 {
+    color: #021125;
+}
+
+.big-flex-box .link {
+    background-color: #94BED4;
+    padding: 12px 10px;
+    width: 200x;
+    height: px;
+    position: absolute; 
+    left: 0;
+    bottom: 10px;
+    border: 5px solid #021125; 
+}
+
+.box-four-wrapper{
+ margin: 10px 0 10px 20px;   
+}
+
+.mini-box {
+    border: 5px solid #021125; 
+    width: 49%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    min-height: 200px;
+    position: relative;
+}
+
+.mini-box.left{
+    float:left;
+    margin-right: 10px;
+}
+
+.mini-box.right{
+    float: right; 
+}
+
+.mini-box .link {
+    background-color: #94BED4;
+    padding: 12px 10px;
+    width: 160px;
+    height: 60px;
+    position: absolute; 
+    left: 0;
+    bottom: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+    .AboutMe h2 {
+        background: grey;
+    }
+}
+
