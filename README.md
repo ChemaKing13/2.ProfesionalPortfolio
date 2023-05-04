@@ -32,6 +32,8 @@ Simply access the live url and browse the page, the user can navigate the page u
 
 ## Live URL
 
+https://chemaking13.github.io/2.ProfesionalPortfolio/
+
 ## License
 
 N/A
