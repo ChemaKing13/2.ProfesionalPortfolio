@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Profesional Portfolio</title>
+    <!-- stylesheet linked -->
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-
+<!-- header that include profile picture, and name  -->
     <header class="container-header">
         <h1>José María</h1> <img src="images/ProfilePic.png" alt="Profile-Pic">
         <section>
             <div class="links">
                 <nav>
                     <ul class="menu-items">
+                        <!-- the href will allow us to scroll to the corresponding section -->
                         <li class="item"><a href="#AboutMe">About Me</a></li>
                         <li class="item"><a href="#Work">Work</a></li>
                         <li class="item"><a href="#ContactMe">Contact Me</a></li>
@@ -27,7 +29,7 @@
         <div class="flex-container">
             <h2>Web developer in process...</h2>
         </div>
-    
+    <!-- about me section  -->
     <div>
     <div class="Main-Content">
     <section class = "AboutMe">
@@ -39,10 +41,12 @@
     </section>
 
     <div class="Work">
-        <h2 id="Work">Work</h2>
+        <!-- the ids help us to complete the scrolling when clicking the navbar links  -->
+        <h2 id="Work">Work</h2> 
         <div class="main-flex-container">
             <div class="box-wrapper" style="background-image: url(images/coding.jpeg);" id="box-1">
                <div class="big-flex-box">
+                <!-- this href will make that the placeholder will link us to another url  -->
                 <a href="https://github.com/ChemaKing13/Prework-study-guide" class="link">
                     <h3>Prework-Study-Guide</h3>
                     <span>HTML/CSS/JS</span>
@@ -51,6 +55,7 @@
             </div>
             <div class="box-four-wrapper">
                 <div class="mini-box left" style="background-image: url(images/node_js.png);" id="nodejs">
+                    <!-- in the next href i will add the url to navigate to my future proyects -->
                     <a href="#" class="link">
                         <h3>Future proyect 2</h3>
                         <span>Node/Iot</span>
@@ -82,6 +87,7 @@
         </div>
     </div>
 
+    <!-- here we have all the contact information, the only link working is the github one -->
     <section class ="ContactMe">
         <h2 id="ContactMe">Contact Me</h2>
         <div>
