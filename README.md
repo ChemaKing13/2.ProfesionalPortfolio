@@ -2,8 +2,7 @@
 
 ## Description
 
-With this professional portfolio I try to put my advanced html and css skills to the test, at the same time that I create a portfolio where I add the projects that I am doing. This professional portfolio includes personal information, as well as contact information.
-
+WWelcome to my professional portfolio, where I present a collection of diverse web development projects. This portfolio serves as a showcase for my skills and expertise in creating dynamic and engaging websites. From responsive designs to interactive features, each project reflects my passion for crafting exceptional online experiences. Feel free to explore my work and reach out to me via email, phone, or social media for any inquiries or collaboration opportunities. Let's collaborate and bring your web development goals to fruition!
 
 ## Installation
 
